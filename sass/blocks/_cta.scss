@@ -1,0 +1,50 @@
+.cta {
+    padding: 70px 0;
+}
+
+.cta__block {
+    background-color: #58BEBF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    color: #ffffff;
+    
+}
+.cta__img {
+    margin-top: 60px;
+    border: 25px solid #ffffff;
+    border-radius: 0 20px 0 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+.cta__text {
+    width: 555px;
+    box-sizing: border-box;
+    padding-left: 95px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:
+        url(/img/cta/oval-bottom-left.svg) no-repeat bottom left -186px,
+        url(/img/cta/oval-top-right.svg) no-repeat top right;
+}
+.cta__title {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.cta__article {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: $fwregular;
+    font-size: $fz-regular;
+    line-height: 1.69;
+    letter-spacing: 1.15px;
+    margin-bottom: 30px;
+    width: 350px;
+}
+.cta__buttons-row {
+    display: flex;
+    column-gap: 20px;
+}

@@ -1,0 +1,31 @@
+.testimonials {
+}
+
+.testimonials__heading {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonials__title {
+    max-width: 454px;
+}
+
+.testimonials__subtitle {
+    max-width: 400px;
+}
+.testimonials__row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        top: -40px;
+        right: -40px;
+        width: 80px;
+        height: 80px;
+        background-image: url(/img/icons/design-element.svg);
+    }
+}

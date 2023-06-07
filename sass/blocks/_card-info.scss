@@ -1,0 +1,28 @@
+.img-card__info {
+}
+.card-info {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
+}
+.card-info__icon {
+    margin-right: 20px;
+}
+.card-info__text {
+
+}
+.card-info__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: $fwbold;
+    font-size: $fz-regular;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    color: $cl;
+}
+.card-info__additional-info {
+    
+}

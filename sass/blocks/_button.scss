@@ -1,0 +1,49 @@
+.button{
+    display: inline-block;
+    height: 58px;
+    padding: 18px 37px;
+    background-color: $cl-active;
+    border-radius: 29px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: $fwbold;
+    font-size: $fz-regular;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: .1s ease-in;
+    text-decoration: none;
+    border: none;
+    &:hover{
+        background-color: $cl-active-hover;
+    }
+
+    &--white{
+        background-color: #ffffff;
+        color: $cl;
+        transition: background-color .2s ease-in, color .2s ease-in;
+        &:hover{
+            background-color: $cl;
+            color: #ffffff;
+        }
+    }
+
+    &--play{
+        padding-left: 50px;
+        position: relative;
+
+        &::before{
+            content: "";
+            display: block;
+            width: 12px;
+            height: 12px;
+            
+            background-image: url(/img/icons/arrow.svg);
+            background-size: initial;
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 30px;
+            top: 40%;
+
+        }
+    }
+}

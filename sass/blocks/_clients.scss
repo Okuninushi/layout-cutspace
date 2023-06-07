@@ -1,0 +1,30 @@
+.clients {
+    margin-bottom: 90px;
+}
+
+.clients__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.clients__row-item{
+    
+    & path{
+        fill: #D8D8D8;
+        transition: .2s ease-in;
+    }
+    & circle{
+        fill: #D8D8D8;
+        transition: .2s ease-in;
+    }
+}
+.clients__row-item:hover {
+    & path{
+        fill: $cl;
+    }
+    & circle{
+        fill: $cl;
+    }
+}

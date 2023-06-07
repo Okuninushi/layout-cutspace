@@ -1,0 +1,38 @@
+.header {
+    margin-bottom: 100px;
+}
+
+.header__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__text {
+    width: 467px;
+}
+.header-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: $fwbold;
+    font-size: 54px;
+    line-height: 1.46;
+    letter-spacing: -1px;
+    color: $cl;
+    margin-bottom: 25px;
+    margin-right: -160px;
+    z-index: 999;
+    position: relative;
+}
+.header-article {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: $fwregular;
+    font-size: $fz-link;
+    line-height: 1.69;
+    letter-spacing: 1.15px;
+    color: $cl;
+    margin-bottom: 42px;
+}
+.header__img > img{
+    border-radius: 40px 40px 40px 0;
+}

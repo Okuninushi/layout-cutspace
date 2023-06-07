@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+}
+.navbar-item{
+    margin-right: 42px;
+
+    &:last-child{
+        margin-right: 0;
+    }
+
+}
+.navbar-link {
+    text-decoration: none;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: $fwregular;
+    font-size: $fz-link;
+    line-height: 24px;
+    text-align: center;
+    color: $cl;
+    transition: .2s linear;
+    
+    &:hover{
+        color: $cl-active;
+    }
+    &.active{
+        color: $cl-active;
+        font-weight: $fwbold;
+    }
+}
+
+
